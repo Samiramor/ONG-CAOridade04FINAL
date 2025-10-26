@@ -52,4 +52,5 @@ Samira Moreira – estudante de Ciências da Computação e entusiasta de desenv
 ## 📄 Licença  
 
 Este projeto é de uso livre para fins educacionais.  
+
 © 2025 Projeto fictício da ONG CÃOridade – Todos os direitos reservados.  
