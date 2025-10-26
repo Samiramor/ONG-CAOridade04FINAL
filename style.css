@@ -1,0 +1,264 @@
+@charset "UTF-8";
+
+/* Botão "voltar ao topo" */
+#backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ff9800;
+    color: white;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 1000;
+}
+
+#backToTop.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Fade-in suave */
+.fade {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease;
+}
+
+.fade.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Destaque no menu ativo */
+nav a.active {
+    color: #ff9800;
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:antiquewhite;
+    color: #333;
+}
+
+header {
+    background-color:burlywood;
+    color:#333;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+header img {
+    width: 80px;
+    height: auto;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+ul {
+    list-style-position: inside; /
+    padding: 0; 
+    text-align: center; 
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+main {
+    padding: 20px;
+}
+section {
+    margin-bottom: 30px;
+}
+section h2 {
+    color: #555;
+}
+section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+main {
+    flex: 1; 
+}
+
+footer {
+    background-color: burlywood;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    position:static;
+    width: 100%;
+    bottom: 0;
+}
+footer p {
+    margin: 0;
+    font-size: 10px;
+}
+a {
+    color: #333;
+}
+a:hover {
+    color: #555;
+}
+button {
+    background-color: burlywood;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #e0a96d;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form textarea {
+    height: 100px;
+    resize: vertical;
+}
+img {
+    width: 250px; 
+    height: auto; 
+    border-radius: 10px; 
+    object-fit: cover; 
+}
+.container {
+    width: 90%; 
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 20px; 
+}
+body {
+    text-align: center;
+}
+
+header, section {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #444;
+}
+p, li {
+    line-height: 1.6;
+}
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+ul li {
+    margin-bottom: 10px;
+}
+button {
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #d9984a;
+}
+
+section img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+section ul li img {
+    margin-top: 10px;
+}
+section ul li img {
+    width: 200px; 
+}
+section ul li {
+    margin-bottom: 20px; 
+}
+section ul li img {
+    border: 2px solid #ccc; 
+}
+section ul li img:hover {
+    border-color: #999; 
+}
+section ul li img {
+    display: block;
+    margin: 10px auto 0; 
+}
+section ul li {
+    text-align: center; 
+}
+section ul li img {
+    max-width: 100%; 
+}
+section ul li {
+    margin-bottom: 30px; 
+}
+
+section ul li img {
+    border-radius: 8px; 
+}
+section ul li img {
+    transition: transform 0.3s ease; 
+}
+section ul li img:hover {
+    transform: scale(1.05); 
+}
+section ul li img {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+section ul li img:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+section ul li img {
+    margin-top: 15px; 
+}
+section ul li {
+    font-size: 16px; 
+}
+section ul li img {
+    width: 220px; 
+}
