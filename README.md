@@ -13,8 +13,6 @@ HTML5 | CSS3 | JavaScript | Git/GitHub
 - Suporte a leitores de tela
 - Modo escuro
 
-## Deploy
-Disponível em: [seu-link-do-github-pages]
 
 ## Versionamento
 - Branch principal: main
@@ -24,3 +22,4 @@ Disponível em: [seu-link-do-github-pages]
 
 ## Autora
 Samira Rabelo Moreira
+
